@@ -1,0 +1,127 @@
+{
+  "date_range": {
+    "min_date": "2015-01-01",
+    "max_date": "2025-07-31",
+    "answer_start": "2025-05-01"
+  },
+  "row_counts": {
+    "full_rows": 3730,
+    "train_rows": 3638,
+    "answer_rows": 92
+  },
+  "visitor_imputation_summary": {
+    "visitor_count_null_before_fill": 1,
+    "visitor_count_filled_with_month_mean": 1,
+    "visitor_count_filled_with_train_mean": 0
+  },
+  "feature_null_summary": {
+    "train_feature_null_before_fill": 1248,
+    "answer_feature_null_before_fill": 0,
+    "train_feature_null_after_fill": 0,
+    "answer_feature_null_after_fill": 0
+  },
+  "metrics": {
+    "mae": 3022.039898506122,
+    "rmse": 4558.630750357173,
+    "mape": 127.72298315692726,
+    "r2": 0.7383934908243197
+  },
+  "sample_checks": [
+    {
+      "date": "2015-01-01",
+      "expected": 1645,
+      "actual": 1645,
+      "matched": true
+    },
+    {
+      "date": "2018-01-01",
+      "expected": 2316,
+      "actual": 2316,
+      "matched": true
+    },
+    {
+      "date": "2021-01-01",
+      "expected": 633,
+      "actual": 633,
+      "matched": true
+    },
+    {
+      "date": "2025-01-01",
+      "expected": 2396,
+      "actual": 2396,
+      "matched": true
+    }
+  ],
+  "prediction_preview": [
+    {
+      "date": "2025-05-01",
+      "actual": 2771,
+      "predicted": 10746,
+      "absolute_error": 7975,
+      "error_rate": 287.8
+    },
+    {
+      "date": "2025-05-02",
+      "actual": 11903,
+      "predicted": 5730,
+      "absolute_error": 6173,
+      "error_rate": 51.86
+    },
+    {
+      "date": "2025-05-03",
+      "actual": 7295,
+      "predicted": 15210,
+      "absolute_error": 7915,
+      "error_rate": 108.5
+    },
+    {
+      "date": "2025-05-04",
+      "actual": 33907,
+      "predicted": 20271,
+      "absolute_error": 13636,
+      "error_rate": 40.22
+    },
+    {
+      "date": "2025-05-05",
+      "actual": 38060,
+      "predicted": 31053,
+      "absolute_error": 7007,
+      "error_rate": 18.41
+    },
+    {
+      "date": "2025-05-06",
+      "actual": 19169,
+      "predicted": 29461,
+      "absolute_error": 10292,
+      "error_rate": 53.69
+    },
+    {
+      "date": "2025-05-07",
+      "actual": 3343,
+      "predicted": 2711,
+      "absolute_error": 632,
+      "error_rate": 18.91
+    },
+    {
+      "date": "2025-05-08",
+      "actual": 3929,
+      "predicted": 5091,
+      "absolute_error": 1162,
+      "error_rate": 29.57
+    },
+    {
+      "date": "2025-05-09",
+      "actual": 2623,
+      "predicted": 5621,
+      "absolute_error": 2998,
+      "error_rate": 114.3
+    },
+    {
+      "date": "2025-05-10",
+      "actual": 2241,
+      "predicted": 11832,
+      "absolute_error": 9591,
+      "error_rate": 427.98
+    }
+  ]
+}
